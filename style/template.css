@@ -1,0 +1,13 @@
+html { position: relative; margin: 0; padding: 0; background-image: url('bg.jpg'); background-position: center top; background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-color: #FFDF80; }
+body { margin: 0; padding: 0; text-align: left; }
+#imPage { margin: 0px auto 0px auto; width: 974px; position: relative; }
+#imHeaderBg { position: absolute; left: 0; top: 0; height: 55px; width: 100%; background-image: url('headerbg.jpg'); background-position: left top; background-repeat: repeat-x; background-attachment: scroll; background-color: transparent; }
+#imHeader { height: 233px; background-color: transparent; background-image: url('top.png'); background-position: top left; background-repeat: no-repeat; }
+#imMnMn { float: right; width: 130px; padding: 0px 0px 0px 0px; }
+#imMnMn > ul { text-align: left; }
+#imMnMnGraphics { position: absolute; top: 233px; bottom: 75px; right: 0; width: 130px; background-color: transparent; }
+#imContent { min-height: 380px; position: relative; width: 834px; padding: 5px 5px 5px 5px; margin-right: 130px; }
+#imContentGraphics { min-height: 380px; position: absolute; top: 233px; bottom: 75px; left: 0; width: 844px; background-image: url('content.png'); background-position: left top; background-repeat: repeat-y; background-attachment: scroll; background-color: #FFEFBF; }
+#imFooterBg { position: absolute; left: 0; bottom: 0; height: 90px; width: 100%; background-color: transparent; }
+#imFooter { position: relative; margin: 0 auto; height: 75px; width: 974px; background-color: transparent; background-image: url('bottom.png'); background-position: top left; background-repeat: no-repeat; }
+#imFooterResponsiveContent { display: none; }
